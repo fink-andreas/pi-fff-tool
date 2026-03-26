@@ -1,0 +1,50 @@
+{
+  "name": "@fink-andreas/pi-fff-tool",
+  "version": "0.1.0",
+  "description": "Pi extension that adds a fff_grep tool backed by fff-node",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src/",
+    "extensions/",
+    "scripts/",
+    "tests/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node tests/test-package-manifest.js && node tests/test-results-format.js && node tests/test-extension-registration.js && node tests/test-file-search-tool.js && node tests/test-file-search-integration.js",
+    "test:integration": "node tests/test-file-search-integration.js",
+    "dev:sync-local-extension": "node scripts/dev-sync-local-extension.mjs",
+    "release:check": "npm test && npm pack --dry-run"
+  },
+  "keywords": [
+    "pi",
+    "pi-package",
+    "extension",
+    "file-search",
+    "fff",
+    "tools"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.js"
+    ]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fink-andreas/pi-fff-tool.git"
+  },
+  "dependencies": {
+    "@ff-labs/fff-node": "^0.4.2"
+  }
+}
