@@ -7,6 +7,7 @@ It is backed by [`@ff-labs/fff-node`](https://github.com/dmtrKovalenko/fff.nvim/
 ## What it provides
 
 - one tool: `fff_grep`
+- one packaged skill: `fff-grep`
 - plain-text search
 - regex search
 - literal OR search via `or`
@@ -31,6 +32,19 @@ npm run dev:sync-local-extension
 ```
 
 Then reload pi or reinstall the local extension as needed.
+
+## Skill
+
+This package also ships a pi skill named `fff-grep`.
+
+Use it when you want a short in-context reference for:
+- `fff_grep` parameters
+- plain vs regex usage
+- OR-pattern searches
+- glob filtering
+- whole-word and case-sensitive searches
+
+The skill is packaged under `skills/fff-grep/SKILL.md` and is exposed through `package.json -> pi.skills`.
 
 ## Slash commands
 

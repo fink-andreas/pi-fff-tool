@@ -12,6 +12,7 @@
     "src/",
     "extensions/",
     "scripts/",
+    "skills/",
     "tests/",
     "docs/",
     "README.md",
@@ -37,6 +38,9 @@
   "pi": {
     "extensions": [
       "./index.js"
+    ],
+    "skills": [
+      "./skills"
     ]
   },
   "license": "MIT",
