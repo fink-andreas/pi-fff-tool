@@ -2,7 +2,7 @@
 
 `pi-fff-tool` is a standalone extension for the [pi coding agent](https://github.com/badlogic/pi-mono) that adds a single fast content-search tool: `fff_grep`.
 
-It is backed by [`@ff-labs/fff-node`](https://github.com/dmtrKovalenko/fff.nvim/tree/main/packages/fff-node) and is designed to give pi a warm, indexed grep workflow for code exploration.
+It is backed by [`@ff-labs/fff-node`](https://github.com/dmtrKovalenko/fff.nvim) (SDK) and is designed to give pi a warm, indexed grep workflow for code exploration.
 
 ## What it provides
 
