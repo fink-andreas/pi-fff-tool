@@ -137,3 +137,11 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Local planning / handoff notes
+FFF_TOOL_TO_MCP_COMP.md
+FUZZY_SEARCH_NOK.md
+HANDOFF_TOOL_LISTING_MISSING_FOR_FFF_GREP.md
+MCP_FFF_SURFACE.md
+PLAN.md
+TODO.md
